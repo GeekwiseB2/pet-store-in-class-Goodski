@@ -20,3 +20,44 @@
   background-position: center;
   background-size: cover;
 }
+#hero-text{
+  color:#000;
+}
+/*sevices*/
+#services-section{
+  text-align: center;
+}
+#services-nav>li>a{
+  text-transform: uppercase;
+}
+
+/*footer*/
+
+footer{
+  /*height:200px;*/
+  background-color: #231f20;
+  padding-top: 20px ;
+  padding-bottom:10px;
+}
+#grey-text{
+  color:#bfc0c1;
+}
+address{
+  font-size: 18px;
+}
+.border-left-grey>a{
+  display: block;
+  font-size: 18px;
+  color:#bfc0c1;
+  text-decoration: none;
+
+}
+.border-left-grey{
+  border-left:solid 1px #302f2f;
+}
+
+#footer-logo{
+  height:100px;
+  width:120px;
+
+}
