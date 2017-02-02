@@ -13,16 +13,39 @@
   color:#F1738D;
   font-size: 40px;
 }
-/*============================Hero==================*/
-.hero{
-  background-image: url("../img/hero.jpg");
-  height:350px;
-  background-position: center;
+/*============================Jumbotron==================*/
+.jumbotron{
+  background-image: url(../img/hero.jpg);
+  -webkit-background-size: cover;
   background-size: cover;
+  background-position: center;
+  height: 450px;
 }
-#hero-text{
-  color:#000;
+
+.jumbotron>p{
+
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 28px;
+  margin-top: 20px;
 }
+
+/*featured*/
+.btn-default{
+  background-color: #5BC0DE;
+  color:#fff;
+  border:none;
+}
+.thumbnail{
+  background-color: #EDF1F4;
+  padding: 16px;
+
+}
+.caption>p{
+ font-size: 15px;
+}
+
+
 /*sevices*/
 #services-section{
   text-align: center;
